@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Коммерческое предложение № М08/30 от 31.08.2026 — ООО «ПРОМЭКС»</title>
+<style>
+    :root {
+        --dark-blue: #1f3b63;
+        --orange: #f28c1b;
+        --border: #dce2ea;
+        --text: #2c3e50;
+        --text-light: #6b7c8e;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Arial', sans-serif; background: #eef1f5; display: flex; justify-content: center; padding: 20px; color: var(--text); }
+    .page { width: 210mm; background: white; border-radius: 14px; box-shadow: 0 4px 20px rgba(0,0,0,0.06); padding: 8mm 9mm 10mm; margin: 0 auto; border: 1px solid var(--border); }
+    .top-row { display: flex; gap: 16px; margin-bottom: 16px; }
+    .card { border: 1px solid var(--border); border-radius: 12px; padding: 10px 12px; background: white; }
+    .card-left { flex: 1; border: 2px solid #999; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+    .card-right { flex: 2.2; }
+    .logo-block { display: flex; align-items: center; justify-content: center; margin-bottom: 6px; }
+    .prom { font-weight: 700; font-size: 27px; color: black; }
+    .eks { background: var(--orange); color: white; font-weight: 700; font-size: 27px; padding: 2px 10px; border-radius: 8px; margin-left: 4px; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .sub-logo { font-size: 10.8px; color: var(--text-light); letter-spacing: 0.3px; margin-top: 6px; }
+    .divider-thin { border: none; border-top: 2px solid #999; margin: 6px 0 0; width: 100%; }
+    .info-block { font-size: 10.2px; line-height: 1.5; }
+    .info-block p { white-space: nowrap; margin: 1.5px 0; }
+    .info-block .label { color: var(--text-light); display: inline-block; width: 55px; margin-right: 4px; }
+    .info-block .value { color: var(--text); font-weight: 500; }
+    .title-row { display:flex; justify-content:space-between; align-items:flex-end; margin-bottom: 14px; }
+    .title-left h1 { font-size: 26px; font-weight: 700; color: var(--dark-blue); margin-bottom: 2px; }
+    .title-left .subtitle { font-size: 10px; color: var(--text-light); }
+    .doc-num { text-align:right; font-size:10px; color: var(--text-light); line-height:1.6; max-width: 260px; }
+    .mid-row { margin-bottom: 12px; }
+    .mid-row .card { font-size: 9px; line-height: 1.5; width: 100%; }
+    .card-title { font-weight: 700; font-size: 10px; color: var(--dark-blue); margin-bottom: 6px; border-bottom: 1px solid var(--border); padding-bottom: 3px; }
+    .param-grid { display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; }
+    .param-grid .label { color: var(--text-light); }
+    .noticebox { background: #fff6e9; border:1px solid #f2d9ab; border-radius:10px; padding:9px 13px; margin-bottom:14px; font-size:9.6px; line-height:1.55; color:#7a5310; }
+    .trust { display: flex; gap: 0; margin-bottom: 14px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+    .trust-item { flex: 1; display: flex; align-items: center; gap: 8px; padding: 9px 12px; border-right: 1px solid var(--border); }
+    .trust-item:last-child { border-right: none; }
+    .trust-item svg { width: 16px; height: 16px; flex-shrink: 0; color: var(--orange); }
+    .trust-item .t { font-size: 9.6px; line-height: 1.35; color: var(--text); }
+    .trust-item .t b { display: block; font-size: 10.1px; color: var(--dark-blue); }
+    table { width: 100%; border-collapse: collapse; font-size: 8px; margin-bottom: 4px; }
+    th { background: var(--dark-blue); color: white; padding: 5px 4px; font-weight: 600; text-align: left; border: 1px solid var(--dark-blue); }
+    th:last-child, th:nth-last-child(2), th:nth-last-child(3) { text-align: right; }
+    td { padding: 4.5px 4px; border: 1px solid var(--border); vertical-align: middle; }
+    td:last-child, td:nth-last-child(2), td:nth-last-child(3) { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .bottom-section { display: flex; gap: 16px; margin: 12px 0; align-items: flex-start; }
+    .conditions { flex: 1; font-size: 10px; list-style-type: none; }
+    .conditions li { margin-bottom: 5px; padding-left: 14px; position: relative; line-height:1.5; }
+    .conditions li::before { content: "•"; position: absolute; left: 0; color: var(--orange); }
+    .total-block { flex: 0 0 280px; border-radius: 8px; overflow: hidden; border: 1px solid var(--border); }
+    .total-light { background: #f9fafc; padding: 7px 10px; display: flex; justify-content: space-between; font-size: 10px; font-weight: 500; }
+    .total-orange { background: var(--orange); color: white; padding: 9px 10px; display: flex; justify-content: space-between; font-weight: 700; font-size: 14px; }
+    .sum-words { font-size: 11px; margin: 6px 0 8px; border-top: 1px solid var(--border); padding-top: 8px; }
+    .footnote { font-size: 8.4px; color: var(--text-light); line-height: 1.5; margin-bottom: 4px; }
+    .signature { margin-top: 20px; }
+    .sign-title { font-size: 11px; font-weight: 500; color: var(--text); margin-bottom: 20px; }
+    .sign-line { display: inline-block; width: 150px; border-bottom: 1px solid #333; margin-right: 8px; }
+    .sign-name { font-size: 11px; font-weight: 400; display: inline-block; }
+    .footer { margin-top: 18px; border-top: 1px solid #ccc; padding-top: 8px; font-size: 9px; color: var(--text-light); display: flex; justify-content: space-between; }
+    @media print {
+        body { background: white; }
+        .page { box-shadow: none; border: none; border-radius: 0; }
+        .eks { background: var(--orange) !important; color: white !important; }
+        table { page-break-inside: auto; }
+        tr { page-break-inside: avoid; }
+    }
+</style>
+</head>
+<body>
+<div class="page">
+    <div class="top-row">
+        <div class="card card-left">
+            <div class="logo-block"><span class="prom">ПРОМ</span><span class="eks">ЭКС</span></div>
+            <hr class="divider-thin">
+            <div class="sub-logo">Промышленное и комплексное снабжение</div>
+        </div>
+        <div class="card card-right">
+            <strong style="font-size:13.2px; color:var(--dark-blue);">Информация об организации</strong>
+            <div class="info-block" style="margin-top:4px;">
+                <p><span class="label">ИНН/КПП</span><span class="value">7451453246 / 744801001</span></p>
+                <p><span class="label">Адрес</span><span class="value">454106, г. Челябинск, ул. Островского, д. 30, цоколь, офис 102</span></p>
+                <p><span class="label">Телефон</span><span class="value">+7 (982) 283-10-69</span></p>
+                <p><span class="label">E-mail</span><span class="value">sales@promecs.ru</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="title-row">
+        <div class="title-left">
+            <h1>Коммерческое предложение</h1>
+            <div class="subtitle">на поставку оборудования SIMATIC / SCALANCE № М08/30 от 31.08.2026</div>
+        </div>
+    </div>
+
+    <div class="mid-row">
+        <div class="card">
+            <div class="card-title">Покупатель</div>
+            <div class="param-grid">
+                <span class="label">Организация:</span><span>ЗАО «Эталон-Прибор»</span>
+                <span class="label">ИНН / КПП:</span><span>7452023246 / 744801001</span>
+                <span class="label">Адрес:</span><span>454112, Челябинская обл., г. Челябинск, пр-кт Победы, д. 288, этаж 3</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="trust">
+        <div class="trust-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="7" width="18" height="13" rx="1"/><path d="M8 7V5a4 4 0 0 1 8 0v2"/></svg>
+            <div class="t"><b>Новое, в заводской упаковке</b>оригинал производителя</div>
+        </div>
+        <div class="trust-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l7 3v6c0 5-3.5 8-7 9-3.5-1-7-4-7-9V6l7-3z"/></svg>
+            <div class="t"><b>Гарантия 12 месяцев</b>с даты отгрузки</div>
+        </div>
+        <div class="trust-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="1" y="7" width="14" height="10" rx="1"/><path d="M15 10h4l3 3v4h-7z"/><circle cx="6" cy="19" r="1.6"/><circle cx="17.5" cy="19" r="1.6"/></svg>
+            <div class="t"><b>Доставка включена</b>до адреса покупателя</div>
+        </div>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>№</th>
+                <th>Бренд</th>
+                <th>Наименование</th>
+                <th>Артикул</th>
+                <th>Кол-во</th>
+                <th>Ед.</th>
+                <th>Цена без НДС, ₽</th>
+                <th>Сумма без НДС, ₽</th>
+                <th>НДС 22%</th>
+                <th>Сумма с НДС, ₽</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>SIEMENS</td>
+                <td>SIMATIC HMI MTP1500 Unified Comfort Panel, сенсорная панель 15,6″, широкоформатный TFT, 16 млн цветов, PROFINET; конфигурирование WinCC Unified Comfort V16</td>
+                <td>6AV2128-3QB06-0AX1</td>
+                <td>13</td>
+                <td>шт</td>
+                <td>318 465,16</td>
+                <td>4 140 047,13</td>
+                <td>910 810,37</td>
+                <td>5 050 857,50</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>SIEMENS</td>
+                <td>SIMATIC HMI, карта памяти SD 2 ГБ для операторских панелей серии Comfort</td>
+                <td>6AV2181-8XP00-0AX0</td>
+                <td>13</td>
+                <td>шт</td>
+                <td>5 763,93</td>
+                <td>74 931,15</td>
+                <td>16 484,85</td>
+                <td>91 416,00</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>SIEMENS</td>
+                <td>SIMATIC S7-1500, центральный процессор CPU 1515-2 PN, память 1 МБ (программа) и 4,5 МБ (данные), интерфейсы PROFINET IRT (2 порта) и PROFINET RT; требуется SIMATIC Memory Card</td>
+                <td>6ES7515-2AN03-0AB0</td>
+                <td>12</td>
+                <td>шт</td>
+                <td>229 733,24</td>
+                <td>2 756 798,85</td>
+                <td>606 495,75</td>
+                <td>3 363 294,60</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>SIEMENS</td>
+                <td>SIMATIC S7, карта памяти Flash 2 ГБ, 3,3 В, для CPU семейства S7-1x00</td>
+                <td>6ES7954-8LP03-0AA0</td>
+                <td>12</td>
+                <td>шт</td>
+                <td>45 302,99</td>
+                <td>543 635,90</td>
+                <td>119 599,90</td>
+                <td>663 235,80</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>SIEMENS</td>
+                <td>SIMATIC S7-1500, модуль аналоговых входов AI 16xI BA, 16 каналов, разрешение 16 бит, точность 0,5%, диагностика и аппаратные прерывания</td>
+                <td>6ES7531-7MH00-0AB0</td>
+                <td>50</td>
+                <td>шт</td>
+                <td>39 147,13</td>
+                <td>1 957 356,56</td>
+                <td>430 618,44</td>
+                <td>2 387 975,00</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>SIEMENS</td>
+                <td>SIMATIC S7-1500, фронтальный соединитель с винтовым подключением, 40 полюсов, для модулей шириной 35 мм; 4 перемычки и кабельная стяжка</td>
+                <td>6ES7592-1AM00-0XB0</td>
+                <td>233</td>
+                <td>шт</td>
+                <td>3 524,10</td>
+                <td>821 114,92</td>
+                <td>180 645,28</td>
+                <td>1 001 760,20</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>SIEMENS</td>
+                <td>SIMATIC S7-1500, модуль аналоговых выходов AQ 8xU/I HS, 8 каналов, разрешение 16 бит, точность 0,3%, диагностика, замещающее значение</td>
+                <td>6ES7532-5HF00-0AB0</td>
+                <td>19</td>
+                <td>шт</td>
+                <td>68 096,97</td>
+                <td>1 293 842,38</td>
+                <td>284 645,32</td>
+                <td>1 578 487,70</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>SIEMENS</td>
+                <td>SIMATIC S7-1500, модуль дискретных входов DI 32x24 V DC, 32 канала (2 группы по 16), задержка входа 0,05–20 мс, диагностика</td>
+                <td>6ES7521-1BL00-0AB0</td>
+                <td>98</td>
+                <td>шт</td>
+                <td>27 730,00</td>
+                <td>2 717 540,00</td>
+                <td>597 858,80</td>
+                <td>3 315 398,80</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>SIEMENS</td>
+                <td>SIMATIC S7-1500, модуль дискретных выходов DQ 32x24 V DC/0,5 А, 32 канала (4 группы по 8), до 4 А на группу, поканальная диагностика</td>
+                <td>6ES7522-1BL01-0AB0</td>
+                <td>66</td>
+                <td>шт</td>
+                <td>38 566,31</td>
+                <td>2 545 376,56</td>
+                <td>559 982,84</td>
+                <td>3 105 359,40</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>SIEMENS</td>
+                <td>SIMATIC S7-1500, системный блок питания PS 60 Вт, вход 24/48/60 V DC, питание внутренней шины S7-1500</td>
+                <td>6ES7505-0RA00-0AB0</td>
+                <td>36</td>
+                <td>шт</td>
+                <td>39 637,07</td>
+                <td>1 426 934,36</td>
+                <td>313 925,56</td>
+                <td>1 740 859,92</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>SIEMENS</td>
+                <td>SIMATIC S7-1500, профильная монтажная шина 830 мм, с заземляющим элементом и интегрированной DIN-рейкой для небольших компонентов</td>
+                <td>6ES7590-1AJ30-0AA0</td>
+                <td>36</td>
+                <td>шт</td>
+                <td>9 747,95</td>
+                <td>350 926,23</td>
+                <td>77 203,77</td>
+                <td>428 130,00</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>SIEMENS</td>
+                <td>SIMATIC ET 200MP, интерфейсный модуль IM 155-5 PN, PROFINET IO, до 12 модулей; Shared Device, MRP, обновление прошивки</td>
+                <td>6ES7155-5AA00-0AA0</td>
+                <td>24</td>
+                <td>шт</td>
+                <td>30 558,40</td>
+                <td>733 401,64</td>
+                <td>161 348,36</td>
+                <td>894 750,00</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>SIEMENS</td>
+                <td>SCALANCE XB206-2LD, управляемый Layer 2 Ethernet-коммутатор, 6×RJ45 10/100 Мбит/с + 2×SM FO (SC), 1 консольный порт, резервируемое питание, IEC 62443-4-2, диапазон температур 0…+60 °C, монтаж на DIN-рейку, PROFINET IO device</td>
+                <td>6GK5206-2BF00-2TB2</td>
+                <td>9</td>
+                <td>шт</td>
+                <td>121 958,11</td>
+                <td>1 097 623,03</td>
+                <td>241 477,07</td>
+                <td>1 339 100,10</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="bottom-section">
+        <ul class="conditions">
+            <li><strong>Условия оплаты:</strong> предоплата 50%, оставшиеся 50% — по уведомлению о готовности со склада в Челябинске.</li>
+            <li><strong>Срок поставки:</strong> 70–80 дней (под заказ).</li>
+            <li><strong>Доставка:</strong> до адреса Покупателя.</li>
+            <li><strong>Гарантия:</strong> 12 месяцев с даты поставки.</li>
+        </ul>
+        <div class="total-block">
+            <div class="total-light"><span>Итого без НДС</span><span>20 459 528,71 ₽</span></div>
+            <div class="total-light"><span>НДС 22%</span><span>4 501 096,31 ₽</span></div>
+            <div class="total-orange"><span>Итого с НДС</span><span>24 960 625,02 ₽</span></div>
+        </div>
+    </div>
+
+    <div class="sum-words">
+        <strong>Итого к оплате в рублях:</strong> 24 960 625,02 (Двадцать четыре миллиона девятьсот шестьдесят тысяч шестьсот двадцать пять рублей 02 копейки), включая НДС 22%.
+    </div>
+
+    <div class="signature">
+        <div class="sign-title">Генеральный директор</div>
+        <div><span class="sign-line"></span><span class="sign-name">В.В. Харламов</span></div>
+    </div>
+
+    <div class="footer">
+        <span>© 2026 ООО «ПРОМЭКС»</span>
+        <span>www.promecs.ru | sales@promecs.ru</span>
+    </div>
+</div>
+<!-- Описания 12 позиций обновлены по архивному справочнику Siemens SQLite; артикул 6GK5206-2BF00-2TB2 отсутствует в базе и оставлен без изменений. Цены и условия не менялись. -->
+</body>
+</html>
