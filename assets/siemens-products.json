@@ -116,7 +116,8 @@
           "STEP 7",
           "Не ниже V17"
         ]
-      ]
+      ],
+      "image": "assets/siemens/6ES7215-1HG40-0XB0.webp"
     },
     {
       "sku": "6ES7521-1BL00-0AB0",
@@ -146,7 +147,8 @@
           "STEP 7 TIA Portal",
           "Не ниже V13 SP1"
         ]
-      ]
+      ],
+      "image": "assets/siemens/6ES7521-1BL00-0AB0.webp"
     },
     {
       "sku": "6ES7522-1BL01-0AB0",
@@ -172,7 +174,8 @@
           "Аппаратное исполнение",
           "Не ниже FS02"
         ]
-      ]
+      ],
+      "image": "assets/siemens/6ES7522-1BL01-0AB0.webp"
     },
     {
       "sku": "6ES7532-5HF00-0AB0",
@@ -202,7 +205,8 @@
           "Аппаратное исполнение",
           "Не ниже FS01"
         ]
-      ]
+      ],
+      "image": "assets/siemens/6ES7532-5HF00-0AB0.webp"
     },
     {
       "sku": "6ES7531-7MH00-0AB0",
